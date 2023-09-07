@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 10%;
+}
+
+#user-list {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.user {
+  border: 3px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user.inactive {
+  opacity: 0.5;
+}
+
+.user p {
+  margin: 5px 0;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
